@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Podkova:wght@400..800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-decoration:none !important;
+}
+ul,ol{
+    list-style:none;
+    margin: 0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+}
+.common_heading h2{
+    font-size: 64px;
+    font-weight:700;
+    font-family: "Frank Ruhl Libre", serif;
+    color:#000000;
+    width:437px;
+}
+/* ============================================================================
+                     COMMON CSS PART END
+=============================================================================== */
+/* ============================================================================
+                     NAV CSS PART START
+=============================================================================== */
+#nav_menu{
+    padding-top:47px;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width:100%;
+}
+#nav_menu .nav_logo{
+    font-size: 40px;
+    font-weight:600;
+    font-family: "Poppins", sans-serif;
+    color:#000000;
+}
+#nav_menu ul{
+    gap:50px;
+}
+#nav_menu ul li a{
+    font-size: 20px;
+    font-weight:600;
+    font-family: "Poppins", sans-serif;
+    color:#000000;
+}
+.nav_contact .login{
+    padding: 10px 22px;
+    background-color: #FAE3B6;
+    color:#000000;
+    font-size: 20px;
+    font-weight:600;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    outline-style:solid;
+    outline-color:#FFD687;
+    outline-width:1px;
+    margin-right:10px;
+}
+.nav_contact .login:hover{
+    background-color:#FDBB57;
+    box-shadow:none;
+}
+
+.nav_contact .singup{
+    padding: 10px 15px;
+    background-color: #FAE3B6;
+    color:#000000;
+    font-size: 20px;
+    font-weight:600;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    outline-style:solid;
+    outline-color:#FFD687;
+    outline-width:1px
+}
+.nav_contact .singup:hover{
+    background-color:#FDBB57;
+    box-shadow:none;
+}
+
+
+/* ============================================================================
+                     NAV CSS PART END
+=============================================================================== */
+/* ============================================================================
+                     BANNER CSS PART START
+=============================================================================== */
+#banner{
+    padding:236px 0 102px;
+    background-color:#FAE3B6;
+}
+
+.banner_details h1{
+    font-size:60px;
+    font-weight:600;
+    font-family:"Poppins", sans-serif;
+    color:#000000;
+    width:500px;
+    margin-bottom:38px;
+}
+.banner_details p{
+    font-size:22px;
+    font-weight:400;
+    font-family:"Poppins", sans-serif;
+    color:#000000;
+    width:530px;
+    margin-bottom:76px;
+}
+.banner_button a{
+    padding:25px 90px;
+    background-color:#000000;
+    font-size:20px;
+    font-weight:600;
+    font-family:"Poppins", sans-serif;
+    color:#FFFFFF;
+    border-radius:10px;
+}
+/* .banner_right_col{
+    position: relative;
+    height:674px;
+} */
+/* .banner_img{
+    height: 643px;
+    width:535px;
+    border-bottom-left-radius: 195px;
+    overflow: hidden;
+    margin-left: auto;
+    position: absolute;
+    right: 6px;
+    top: 0;
+}
+.banner_vector{
+    display: flex;
+    align-items: end;
+    height: 100%;
+} */
+/* ============================================================================
+                     BANNER CSS PART END
+=============================================================================== */
+/* ============================================================================
+                     COLLECTION CSS PART START
+=============================================================================== */
+#collection{
+    padding:200px 0 120px;
+    position:relative;
+}
+#collection .common_heading{
+margin:0 auto;
+width:fit-content;
+}
+.collection_wrap{
+    position:relative;
+    margin-top: 100px;
+}
+.collection_img{
+    width:349px;
+    border-radius:20px;
+    overflow:hidden;
+}
+.collection_details{
+    background-color: #FFFFFF;
+    height:55px;
+    width:300px;
+    border-radius:20px;
+    position:absolute;
+    left:21px;
+    bottom:44px;
+}
+.collection_details p a{
+    font-size:20px;
+    font-weight:400;
+    font-family:"Poppins", sans-serif;
+    color:#000000;
+    margin: 0 auto;
+    width:fit-content;
+    line-height:55px;
+    display: block;
+}
+.collection_vector_img{
+    position:absolute;
+    right:0;
+    bottom:80px;
+}
+/* ============================================================================
+                     COLLECTION CSS PART END
+=============================================================================== */
+/* ============================================================================
+                     FASHION CSS PART START
+=============================================================================== */
+#fashion{
+    padding-top: 60px;
+    overflow:hidden;
+}
+.fashion_row{
+    position:relative;
+}
+.fasion_img{
+    border-top-left-radius: 150px;
+    overflow: hidden;
+    position: absolute;
+    left:0;
+    top:55px;
+}
+.fashion_vector_left{
+    position: absolute;
+    left: 200px;
+    bottom: -80px;
+}
+.fashion_vector_img{
+    height:164px;
+}
+.fashion_details{
+    margin-left: 230px;
+}
+.fashion_details p{
+    font-size:20px;
+    font-weight:600;
+    font-family:"Poppins", sans-serif;
+    color:#000000;
+    width:370px;
+    margin-top:60px;
+}
+.fashion_review{
+    display:flex;
+    background-color: #FEECC8;
+    height:280px;
+    width:790px;
+    border-radius:20px;
+    gap:10px;
+    margin-top: 145px;
+    margin-bottom: 127px;
+}
+.fashion_review_items{
+    position: relative;
+    width: 33%;
+}
+.fashion_review .fashion_review_items:last-child::after{
+   content:none;
+}
+.fashion_review_details{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.fashion_review_items .fashion_review_details h4{
+   font-size: 64px;
+   font-weight:600;
+   font-family:"Podkova", serif;
+   color: #000000;
+   margin-bottom: 28px;
+}
+.fashion_review_items .fashion_review_details p{
+    font-size:28px;
+    font-weight:500;
+    font-family:"Poppins", sans-serif;
+    color:#000000;
+}
+.fashion_review_items::after{
+    content: '';
+    height:162px;
+    width:2px;
+    position:absolute;
+    right: 20px;
+    top:60px;
+    background-color: #000000;
+}
+/* ============================================================================
+                     FASHION CSS PART END
+=============================================================================== */
+/* ============================================================================
+                     FOOTER CSS PART START
+=============================================================================== */
+#best_seller{
+    padding: 36px 0 190px;
+    background-color:#CFA485;
+}
+.best_seller_details .common_heading h2{
+    color:#FFFFFF;
+}
+.best_seller_details p{
+    font-size:24px;
+    font-weight:700;
+    font-family:"Frank Ruhl Libre", serif;
+    color:#FFFFFF;
+    width:430px;
+    margin:40px 0;
+}
+.best_seller_button a{
+    padding:24px 85px;
+    background-color:#000000;
+    border-radius:10px;
+    font-size:24px;
+    font-weight:600;
+    font-family:"Poppins", sans-serif;
+    color:#FFFFFF;
+}
+.best_seller_items{
+    width:365px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    overflow:hidden;
+}
+.best_seller_items_wrap{
+    margin-left:22px;
+}
+.best_seller_star{
+    margin-top: 14px;
+}
+.best_seller_items .best_seller_star span{
+   color:#FFAF37;
+   margin-right: 8px;
+}
+.best_seller_items h4{
+    font-size:22px;
+    font-weight:600;
+    font-family:"Poppins", sans-serif;
+    color:#000000;
+    margin-top:11px;
+}
+.best_seller_price{
+    display:flex;
+    gap:31px;
+}
+.best_seller_price p:first-child{
+    font-size: 24px;
+    font-weight:400;
+    font-family:"Poppins", sans-serif;
+    color:#C4C4C4;
+}
+.best_seller_price p:last-child{
+    font-size: 24px;
+    font-weight:400;
+    font-family:"Poppins", sans-serif;
+    color:#000000;
+}
+
+/* ============================================================================
+                     FOOTER CSS PART END
+=============================================================================== */
+/* ============================================================================
+                     FONTS FAMILY PART START
+=============================================================================== */
+/* font-family: "Podkova", serif; */
+/* font-family: "Frank Ruhl Libre", serif; */
+/* font-family: "Poppins", sans-serif; */
+/* ============================================================================
+                     FONTS FAMILY PART END
+=============================================================================== */
